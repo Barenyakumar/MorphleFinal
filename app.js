@@ -1,5 +1,3 @@
-
-
 document.getElementById("reset").addEventListener("click", () => {
   localStorage.clear()
   window.location.reload()
@@ -27,7 +25,7 @@ function updateMat(ind1, ind2, val) {
 
 var curr = localStorage.getItem("curr")
   ? JSON.parse(localStorage.getItem("curr"))
-  : { 0: 1, 1: 1 }
+  : { 0: 10, 1: 30 }
 
 const app = document.getElementById("app1")
 JSON.parse(localStorage.getItem("matrix")).forEach((row, i) => {
