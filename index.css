@@ -1,0 +1,33 @@
+.App{
+    border: 2px solid black;
+    width: max-content;
+  }
+  .matContainer{
+    /* border: 2px solid green; */
+    width: max-content;
+    display: flex;
+  }
+  .matElement{
+    height: 15px;
+    width: 15px;
+    /* border: 2px solid blue; */
+  }
+  
+  .focused{
+    /* border:1px dotted blue; */
+    background: rgb(77, 77, 233);
+  }
+  .captured{
+    /* background-color: yellowgreen; */
+    /* border: 1px solid black; */
+    background: rgb(48, 48, 48);
+  
+  }
+  .visited{
+    /* border: 1px solid red; */
+    background: rgb(171, 171, 171);
+  }
+
+  .currElem{
+    box-shadow:0px 0px 0px 3px green inset;
+  }
